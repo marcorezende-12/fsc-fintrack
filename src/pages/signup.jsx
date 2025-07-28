@@ -1,4 +1,4 @@
-import { Link } from 'react-router'
+import { Link } from 'react-router-dom'
 
 import PasswordInput from '@/components/password-input'
 import { Button } from '@/components/ui/button'
@@ -34,7 +34,7 @@ const SignupPage = () => {
                 htmlFor="terms"
                 className="text-xs text-muted-foreground opacity-75"
               >
-                Ao clicar em "Criar conta", você aceita{' '}
+                Ao clicar em &quot;Criar conta&quot;, você aceita{' '}
                 <a href="#" className="text-white underline">
                   nosso termo de uso e política de privacidade.
                 </a>
